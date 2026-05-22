@@ -1,0 +1,22 @@
+{
+  "name": "Premium Digital Card",
+  "short_name": "Premium Card",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b132b",
+  "description": "Premium NFC digital landing page with social links, products, offers and contact options.",
+  "icons": [
+    {
+      "src": "profil.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "profil.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
