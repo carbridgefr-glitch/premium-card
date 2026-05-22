@@ -427,9 +427,10 @@
     .offer-image {
       width: 100%;
       display: block;
-      max-height: 240px;
-      object-fit: cover;
+      max-height: 260px;
+      object-fit: contain;
       background: #f8fafc;
+      padding: 8px;
     }
 
     .offer-body {
@@ -476,6 +477,16 @@
       box-shadow: 0 16px 34px rgba(15,23,42,0.18);
       color: #ffffff;
       border: 1px solid rgba(245,215,122,0.45);
+    }
+
+    .premium-image {
+      width: 100%;
+      display: block;
+      border-radius: 18px;
+      margin-bottom: 16px;
+      background: #ffffff;
+      object-fit: contain;
+      box-shadow: 0 12px 26px rgba(0,0,0,0.22);
     }
 
     .premium-includes h2 {
@@ -727,7 +738,7 @@
       </a>
 
       <a class="main-btn review" href="https://search.google.com/local/writereview?placeid=PLACE_ID" target="_self">
-        <span class="main-icon"><img src="google review.jpg" alt="Google Review"></span>
+        <span class="main-icon"><img src="google%20review.jpg" alt="Google Review"></span>
         <span class="main-content">
           <span>Άφησε Google Review</span>
           <span class="stars">★★★★★</span>
@@ -736,7 +747,7 @@
       </a>
 
       <a class="main-btn map" href="https://www.google.com/maps" target="_self">
-        <span class="main-icon"><img src="google map.jpg" alt="Google Map"></span>
+        <span class="main-icon"><img src="google%20map.jpg" alt="Google Map"></span>
         <span class="main-content">
           <span>Βρες μας στο Google Map</span>
           <small>Άνοιγμα τοποθεσίας</small>
@@ -745,7 +756,7 @@
       </a>
 
       <a class="main-btn offer" href="#special-offer">
-        <span class="main-icon"><img src="special offer.jpg" alt="Special Offer"></span>
+        <span class="main-icon"><img src="special%20offer.jpg" alt="Special Offer"></span>
         <span class="main-content">
           <span>Δες την προσφορά</span>
           <small>Special offer για περιορισμένο χρόνο</small>
@@ -796,7 +807,7 @@
         </a>
 
         <a class="circle-btn" href="https://www.tiktok.com/" target="_self">
-          <span class="circle-icon"><img src="tik tok.png" alt="TikTok"></span>
+          <span class="circle-icon"><img src="tik%20tok.png" alt="TikTok"></span>
           TikTok
         </a>
 
@@ -867,7 +878,7 @@
       </div>
 
       <div class="offer-card">
-        <img src="promo 15%.jpg" alt="Promo 15%" class="offer-image">
+        <img src="promo%2015%25.jpg" alt="Promo 15%" class="offer-image">
 
         <div class="offer-body">
           <h3>Προσφορά 15%</h3>
@@ -884,6 +895,8 @@
 
     <section class="section">
       <div class="premium-includes">
+        <img src="premium.png" alt="Premium Package" class="premium-image">
+
         <h2>Premium Package περιλαμβάνει</h2>
         <ul>
           <li>1 NFC βραχιόλι δώρο για άμεσο tap και άνοιγμα της digital card.</li>
@@ -896,7 +909,7 @@
     </section>
 
     <footer class="footer">
-      Powered by NFC Brelot • Jewel Art<br>
+      Powered by NFC Μπρελόκ • Jewel Art<br>
       Instagram:
       <a href="https://www.instagram.com/lazaros_jewelart" target="_self">@lazaros_jewelart</a>
 
@@ -929,7 +942,7 @@
         4. Πάτησε “Add”.
       </div>
 
-      <button class="modal-action green" id="androidInstallBtn" onclick="installApp()" style="display:none;">
+      <button class="modal-action green" id="androidInstallBtn" onclick="installApp" style="display:none;">
         Εγκατάσταση στο κινητό
       </button>
 
